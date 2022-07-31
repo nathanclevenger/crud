@@ -714,6 +714,27 @@
         </div>
         <div class="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
           <div class="sm:col-span-3">
+            <label for="username" class="block text-sm font-medium text-gray-700">
+              Username
+            </label>
+            <div class="mt-1 flex rounded-md shadow-sm w-8">
+              <input type="text" name="username" id="username" autocomplete="username" class="flex-1 focus:ring-indigo-500 focus:border-indigo-500 block min-w-0 rounded-none rounded-l-md sm:text-sm border-gray-300">
+              <span class="inline-flex items-center px-3 rounded-r-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 sm:text-sm">
+                .apps.as
+              </span>
+            </div>
+          </div>
+          
+          <div class="sm:col-span-3">
+            <label for="full-name" class="block text-sm font-medium text-gray-700">
+              Full name
+            </label>
+            <div class="mt-1">
+              <input type="text" name="first-name" id="full-name" autocomplete="given-name" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md">
+            </div>
+          </div>
+          
+<!--           <div class="sm:col-span-3">
             <label for="first-name" class="block text-sm font-medium text-gray-700">
               First name
             </label>
@@ -729,7 +750,7 @@
             <div class="mt-1">
               <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md">
             </div>
-          </div>
+          </div> -->
 
           <div class="sm:col-span-4">
             <label for="email" class="block text-sm font-medium text-gray-700">
